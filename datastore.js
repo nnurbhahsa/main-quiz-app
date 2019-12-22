@@ -80,7 +80,7 @@ const STORE = [
       correctAnswer: 'we interbred while coexisting.'
     },
     {
-      question: 'Evidence for the widespread use of language by humans during the Paleolithic includes ',
+      question: 'Evidence for the widespread use of language includes ',
       answers: [
       'evidence of collaboration between different groups.',
       'various written inscriptions found at Paleolithic sites.',

@@ -105,7 +105,7 @@ function updateScore () {
 
 function resultsPage () {
     if (score >= 8) {
-    $('.qAform').html(`<section class="results correctFeedback"><h3>Great job!</h3><p>You got ${score} / 10</p>><button class="restartButton">Restart Quiz</button></section>`);
+    $('.qAform').html(`<section class="results correctFeedback"><h3>Great job!</h3><p>You got ${score} / 10</p><button class="restartButton">Restart Quiz</button></section>`);
     } else if (score < 8 && score >= 5) {
     $('.qAform').html(`<section class="results correctFeedback"><h3>Almost there!</h3><p>You got ${score} / 10</p><button class="restartButton">Restart Quiz</button></section>`);
     } else {
